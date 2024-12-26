@@ -31,10 +31,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002465676993'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002465676993'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002465676993'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002465676993')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
@@ -68,10 +68,10 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/5aa627c49bba919b1f567-3cb57520cced9323e9.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
+PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/197a3f5a6a40733d39544-3533941241f190e3ea.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
