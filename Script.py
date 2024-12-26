@@ -87,12 +87,12 @@ Bʏ @UGmoviez</b>"""
 » ʀᴀᴍ - <code>{}%</code>
 » ᴄᴘᴜ - <code>{}%</code></b>"""
 
-    NEW_USER_TXT = """<b>#New_User 
+    NEW_USER_TXT = """<b>#New_User {}
 
 ≈ ɪᴅ:- <code>{}</code>
 ≈ ɴᴀᴍᴇ:- {}</b>"""
 
-    NEW_GROUP_TXT = """#New_Group 
+    NEW_GROUP_TXT = """#New_Group {}
 
 Group name - {}
 Id - <code>{}</code>
